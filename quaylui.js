@@ -11,6 +11,9 @@ function attempt(i) {
 };
 
 attempt(0);
+
+// Explanation for above code
+// At first we have 0 0, and then we have 0 and 1
 /*
 i 0
 j 0
