@@ -15,7 +15,7 @@ t[0] = 0;
 	}
 	x[i] = 6 - t[i - 1];
 	// x.splice(0, 1);
-	console.log(x.toString());
+	console.log(x.slice(1, i + 1).toString());
 })(1);
 
 

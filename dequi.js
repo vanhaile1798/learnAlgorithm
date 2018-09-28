@@ -1,12 +1,17 @@
+var a ;
+
 function solve(x) {
 	if (x === 1) {
-		console.log(x);
+		a = `${x}`;
 	} else if (x % 2 === 0) {
 			solve(x / 2);
-			console.log(' * 2');
+			a += ' * 2';
 		} else {
 		solve(x * 3 + 1);
-		console.log(' / 3');
+		a += ' / 3';
+	}
+	if (x === 10) {
+		console.log(a);
 	}
 }
 

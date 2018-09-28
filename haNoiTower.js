@@ -27,4 +27,4 @@ function ucln(a, b) {
 		ucln(b, a % b);
 	}
 }
-ucln(8, 12); 
+ucln(8, 12);

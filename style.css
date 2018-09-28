@@ -1,0 +1,188 @@
+* {
+	font-size: 13px;
+	box-sizing: border-box;
+	color: #fff;
+}
+body {
+	font-family: Open Sans,sans-serif;
+	background: #1488c6;
+	font-size: 13px;
+	margin: 0;
+}
+
+.container1 {
+	height: 100%;
+	min-height: 810px;
+	width: 100vw;
+}
+
+
+.container2 {
+	padding-top: 120px;
+	/*margin: auto;*/
+	width: 360px;
+	height: 100%;
+	position: relative;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+}
+.container3 {
+	height: 48px;
+	line-height: 24px;
+	position: relative;
+	margin-bottom: 20px;
+}
+#hr1 {
+	/*width: 360px;*/
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	border: none;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+	bottom: 8px;
+}
+#hr2{
+	/*width: 360px;*/
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	border: none;
+	border-bottom: 3px solid white;
+	transform: scaleX(0);
+	transition: transform 0.4s ease;
+	bottom: 8px;
+}
+p {
+	font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+p strong {
+	font-size: 14px;
+}
+
+input {
+	border: none;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	box-sizing: content-box;
+	background: transparent;
+	padding: 0px;
+	color: white;
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+
+}
+
+input:focus + .hrcontainer #hr2{
+	transform: scaleX(1);
+
+}
+
+.hrcontainer {
+	position: relative;
+}
+
+svg {
+	height: 70px;
+	width: 70px;
+}
+.banner {
+	text-align: center;
+	margin-bottom: 48px;
+	fill:#fff;
+	color: #fff;
+	font-weight: 400;
+}
+
+.banner h1 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	margin: 0;
+	letter-spacing: normal;
+}
+
+.inputplaceholder {
+	position: absolute;
+    bottom: 12px;
+    color: white;
+    opacity: 0.6;
+    z-index: -1;
+    font-size: 14px;
+    }
+
+button {
+	float: right;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    width: 110px;
+    border-color: #fff;
+    background-color: #fff;
+    color: #1488c6;
+    outline: none;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 10px;
+    min-width: 88px;
+    line-height: 32px;
+    min-height: 32px;
+    border-width: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    border-style: solid;
+    white-space: nowrap;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+	position: relative;
+    transition: background-color .4s ease,border-color .6s ease;
+    }
+
+button:hover {
+	background-color: hsla(0,0%,100%,.85);
+    border-color: hsla(0,0%,100%,.85);
+}
+
+.idpass:after {
+	clear: both;
+}
+
+.idpass {
+	margin-bottom: 48px;
+}
+.options a{
+	width: 50%;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding-left: 20px;
+}
+a:first-child {
+	border-right: 1px solid #fff;
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 0px;
+}
+.options {
+	width: 100%;
+}
+
+.options a:hover{
+	
+	text-decoration: underline;
+}
+
+.btndiv {
+	width: 100%;
+	height: 66px;
+}
